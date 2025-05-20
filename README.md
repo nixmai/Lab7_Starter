@@ -1,4 +1,4 @@
-Names: Nimai Kasibatla 
+Names: Nimai Kasibatla
 
 
 ## Check Your Understanding
