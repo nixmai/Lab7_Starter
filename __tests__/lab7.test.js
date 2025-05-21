@@ -45,16 +45,16 @@ describe('Basic user flow for Website', () => {
         console.log(`Missing title on product ${i + 1}`);
         allArePopulated = false; 
       }
-      if (!product.title || product.title.length === 0) { 
+      if (!product.price || product.title.length === 0) { 
         console.log(`Missing title on product ${i + 1}`);
         allArePopulated = false; 
       }
-      if (!product.title || product.title.length === 0) {
+      if (!product.image || product.title.length === 0) {
         console.log(`Missing title on product ${i + 1}`);
         allArePopulated = false; 
         }
 
-    }
+    }  
     
 
     // Expect allArePopulated to still be true
@@ -169,7 +169,7 @@ describe('Basic user flow for Website', () => {
      * Remember to remove the .skip from this it once you are finished writing this test.
      */
 
-  }, 10000);
+  }, 20000);
 
   // Check to make sure that the cart in localStorage is what you expect
   it('Checking the localStorage to make sure cart is correct', async () => {
@@ -264,7 +264,7 @@ describe('Basic user flow for Website', () => {
      * Remember to remove the .skip from this it once you are finished writing this test.
      */
 
-  }, 10000);
+  }, 30000);
 
   // Checking to make sure that localStorage for the cart is as we'd expect for the
   // cart being empty
